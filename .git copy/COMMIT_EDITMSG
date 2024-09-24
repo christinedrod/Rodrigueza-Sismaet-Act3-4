@@ -1,0 +1,96 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch main
+# Your branch is up to date with 'origin/main'.
+#
+# Changes to be committed:
+#	modified:   config/settings-configuration.php
+#	modified:   dashboard/admin/authentication/admin-class.php
+#	new file:   src/composer.json
+#	new file:   src/composer.lock
+#	new file:   src/vendor/autoload.php
+#	new file:   src/vendor/composer/ClassLoader.php
+#	new file:   src/vendor/composer/InstalledVersions.php
+#	new file:   src/vendor/composer/LICENSE
+#	new file:   src/vendor/composer/autoload_classmap.php
+#	new file:   src/vendor/composer/autoload_namespaces.php
+#	new file:   src/vendor/composer/autoload_psr4.php
+#	new file:   src/vendor/composer/autoload_real.php
+#	new file:   src/vendor/composer/autoload_static.php
+#	new file:   src/vendor/composer/installed.json
+#	new file:   src/vendor/composer/installed.php
+#	new file:   src/vendor/composer/platform_check.php
+#	new file:   src/vendor/phpmailer/phpmailer/.editorconfig
+#	new file:   src/vendor/phpmailer/phpmailer/COMMITMENT
+#	new file:   src/vendor/phpmailer/phpmailer/LICENSE
+#	new file:   src/vendor/phpmailer/phpmailer/README.md
+#	new file:   src/vendor/phpmailer/phpmailer/SECURITY.md
+#	new file:   src/vendor/phpmailer/phpmailer/VERSION
+#	new file:   src/vendor/phpmailer/phpmailer/composer.json
+#	new file:   src/vendor/phpmailer/phpmailer/get_oauth_token.php
+#	new file:   src/vendor/phpmailer/phpmailer/language/phpmailer.lang-af.php
+#	new file:   src/vendor/phpmailer/phpmailer/language/phpmailer.lang-ar.php
+#	new file:   src/vendor/phpmailer/phpmailer/language/phpmailer.lang-as.php
+#	new file:   src/vendor/phpmailer/phpmailer/language/phpmailer.lang-az.php
+#	new file:   src/vendor/phpmailer/phpmailer/language/phpmailer.lang-ba.php
+#	new file:   src/vendor/phpmailer/phpmailer/language/phpmailer.lang-be.php
+#	new file:   src/vendor/phpmailer/phpmailer/language/phpmailer.lang-bg.php
+#	new file:   src/vendor/phpmailer/phpmailer/language/phpmailer.lang-bn.php
+#	new file:   src/vendor/phpmailer/phpmailer/language/phpmailer.lang-ca.php
+#	new file:   src/vendor/phpmailer/phpmailer/language/phpmailer.lang-cs.php
+#	new file:   src/vendor/phpmailer/phpmailer/language/phpmailer.lang-da.php
+#	new file:   src/vendor/phpmailer/phpmailer/language/phpmailer.lang-de.php
+#	new file:   src/vendor/phpmailer/phpmailer/language/phpmailer.lang-el.php
+#	new file:   src/vendor/phpmailer/phpmailer/language/phpmailer.lang-eo.php
+#	new file:   src/vendor/phpmailer/phpmailer/language/phpmailer.lang-es.php
+#	new file:   src/vendor/phpmailer/phpmailer/language/phpmailer.lang-et.php
+#	new file:   src/vendor/phpmailer/phpmailer/language/phpmailer.lang-fa.php
+#	new file:   src/vendor/phpmailer/phpmailer/language/phpmailer.lang-fi.php
+#	new file:   src/vendor/phpmailer/phpmailer/language/phpmailer.lang-fo.php
+#	new file:   src/vendor/phpmailer/phpmailer/language/phpmailer.lang-fr.php
+#	new file:   src/vendor/phpmailer/phpmailer/language/phpmailer.lang-gl.php
+#	new file:   src/vendor/phpmailer/phpmailer/language/phpmailer.lang-he.php
+#	new file:   src/vendor/phpmailer/phpmailer/language/phpmailer.lang-hi.php
+#	new file:   src/vendor/phpmailer/phpmailer/language/phpmailer.lang-hr.php
+#	new file:   src/vendor/phpmailer/phpmailer/language/phpmailer.lang-hu.php
+#	new file:   src/vendor/phpmailer/phpmailer/language/phpmailer.lang-hy.php
+#	new file:   src/vendor/phpmailer/phpmailer/language/phpmailer.lang-id.php
+#	new file:   src/vendor/phpmailer/phpmailer/language/phpmailer.lang-it.php
+#	new file:   src/vendor/phpmailer/phpmailer/language/phpmailer.lang-ja.php
+#	new file:   src/vendor/phpmailer/phpmailer/language/phpmailer.lang-ka.php
+#	new file:   src/vendor/phpmailer/phpmailer/language/phpmailer.lang-ko.php
+#	new file:   src/vendor/phpmailer/phpmailer/language/phpmailer.lang-lt.php
+#	new file:   src/vendor/phpmailer/phpmailer/language/phpmailer.lang-lv.php
+#	new file:   src/vendor/phpmailer/phpmailer/language/phpmailer.lang-mg.php
+#	new file:   src/vendor/phpmailer/phpmailer/language/phpmailer.lang-mn.php
+#	new file:   src/vendor/phpmailer/phpmailer/language/phpmailer.lang-ms.php
+#	new file:   src/vendor/phpmailer/phpmailer/language/phpmailer.lang-nb.php
+#	new file:   src/vendor/phpmailer/phpmailer/language/phpmailer.lang-nl.php
+#	new file:   src/vendor/phpmailer/phpmailer/language/phpmailer.lang-pl.php
+#	new file:   src/vendor/phpmailer/phpmailer/language/phpmailer.lang-pt.php
+#	new file:   src/vendor/phpmailer/phpmailer/language/phpmailer.lang-pt_br.php
+#	new file:   src/vendor/phpmailer/phpmailer/language/phpmailer.lang-ro.php
+#	new file:   src/vendor/phpmailer/phpmailer/language/phpmailer.lang-ru.php
+#	new file:   src/vendor/phpmailer/phpmailer/language/phpmailer.lang-si.php
+#	new file:   src/vendor/phpmailer/phpmailer/language/phpmailer.lang-sk.php
+#	new file:   src/vendor/phpmailer/phpmailer/language/phpmailer.lang-sl.php
+#	new file:   src/vendor/phpmailer/phpmailer/language/phpmailer.lang-sr.php
+#	new file:   src/vendor/phpmailer/phpmailer/language/phpmailer.lang-sr_latn.php
+#	new file:   src/vendor/phpmailer/phpmailer/language/phpmailer.lang-sv.php
+#	new file:   src/vendor/phpmailer/phpmailer/language/phpmailer.lang-tl.php
+#	new file:   src/vendor/phpmailer/phpmailer/language/phpmailer.lang-tr.php
+#	new file:   src/vendor/phpmailer/phpmailer/language/phpmailer.lang-uk.php
+#	new file:   src/vendor/phpmailer/phpmailer/language/phpmailer.lang-vi.php
+#	new file:   src/vendor/phpmailer/phpmailer/language/phpmailer.lang-zh.php
+#	new file:   src/vendor/phpmailer/phpmailer/language/phpmailer.lang-zh_cn.php
+#	new file:   src/vendor/phpmailer/phpmailer/src/DSNConfigurator.php
+#	new file:   src/vendor/phpmailer/phpmailer/src/Exception.php
+#	new file:   src/vendor/phpmailer/phpmailer/src/OAuth.php
+#	new file:   src/vendor/phpmailer/phpmailer/src/OAuthTokenProvider.php
+#	new file:   src/vendor/phpmailer/phpmailer/src/PHPMailer.php
+#	new file:   src/vendor/phpmailer/phpmailer/src/POP3.php
+#	new file:   src/vendor/phpmailer/phpmailer/src/SMTP.php
+#	new file:   verify-otp.php
+#

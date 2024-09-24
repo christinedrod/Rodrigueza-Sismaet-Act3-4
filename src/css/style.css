@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*mainbackground*/
+.bg_img {
+    background: url(../img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+/*signin & signup*/
+.sign_in, .sign_up {
+    width: 400px;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    position: relaticve;
+    background: transparent
+}
+
+/*sign_in align*/
+.sign_in {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+/*sign_up align*/
+.sign_up {
+    margin-top: 0px;
+}
+
+/*input styles*/
+.form-group1 input[type="email"],
+.form-group1 input[type="text"],
+.form-group2 input[type="password"],
+.form-group2 input[type="email"],
+.form-group3 input[type="password"] {
+    width: 85%;
+    padding: 12px;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+/*button styles*/
+button {
+    width: 50%;
+    padding: 10px;
+    color: black;
+    background: transparent;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border-style: solid;
+    margin-top: 20px;
+}
